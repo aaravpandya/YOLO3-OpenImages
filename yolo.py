@@ -6,7 +6,7 @@ Class definition of YOLO_v3 style detection model on image and video
 import colorsys
 import os
 from timeit import default_timer as timer
-
+import tensorflow as tf
 import numpy as np
 from keras import backend as K
 from keras.models import load_model
@@ -120,8 +120,7 @@ class YOLO(object):
             [self.boxes, self.scores, self.classes],
             feed_dict={
                 self.yolo_model.input: image_data,
-                self.input_image_shape: [image.size[1], image.size[0]],
-                K.learning_phase(): 0
+                self.input_image_shape: [image.size[1], image.size[0]]
             })
 
         print('Found {} boxes for {}'.format(len(out_boxes), 'img'))

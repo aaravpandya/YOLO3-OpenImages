@@ -25,8 +25,8 @@ import yolo
 import yolo_video
 
 
-yolo_model = load_model("model_data/yolo-openimages.h5") # load the model
-yolo_model.summary() # show a summary of the model layers
+# yolo_model = load_model("model_data/yolo-openimages.h5") # load the model
+# yolo_model.summary() # show a summary of the model layers
 # configure the default to YOLOv3 on Open Images
 yolo.YOLO._defaults['model_path']='model_data/yolo-openimages.h5'
 yolo.YOLO._defaults['classes_path']='model_data/openimages.names'
