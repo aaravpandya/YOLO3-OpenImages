@@ -17,9 +17,5 @@ COPY . /app
 RUN pip install -r ./requirements.txt
 RUN pip install tensorflow-1.6.0-cp36-cp36m-linux_x86_64.whl
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
-
-
-# Run app.py when the container launches
-CMD flask run --host 0.0.0.0
+EXPOSE 5000
+CMD ["python", "app.py"]

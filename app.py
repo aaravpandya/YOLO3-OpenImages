@@ -29,5 +29,5 @@ def image_prediction():
         return send_file("output.jpg",mimetype='image/jpeg')
    
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)    
+    app.run(host='0.0.0.0')    
 # app.run(debug=True)
