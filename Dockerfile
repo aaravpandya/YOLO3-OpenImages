@@ -22,4 +22,4 @@ EXPOSE 80
 
 
 # Run app.py when the container launches
-ENTRYPOINT python ./app.py
+CMD flask run --host 0.0.0.0
