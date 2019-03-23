@@ -1,0 +1,977 @@
+{
+    "1": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 32,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "5": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 64,
+        "strides": [
+            2,
+            2
+        ],
+        "padding": "valid",
+        "use_bias": false
+    },
+    "8": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 32,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "11": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 64,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "16": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 128,
+        "strides": [
+            2,
+            2
+        ],
+        "padding": "valid",
+        "use_bias": false
+    },
+    "19": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 64,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "22": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "26": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 64,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "29": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "34": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            2,
+            2
+        ],
+        "padding": "valid",
+        "use_bias": false
+    },
+    "37": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "40": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "44": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "47": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "51": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "54": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "58": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "61": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "65": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "68": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "72": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "75": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "79": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "82": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "86": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "89": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "94": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            2,
+            2
+        ],
+        "padding": "valid",
+        "use_bias": false
+    },
+    "97": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "100": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "104": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "107": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "111": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "114": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "118": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "121": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "125": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "128": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "132": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "135": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "139": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "142": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "146": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "149": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "154": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            2,
+            2
+        ],
+        "padding": "valid",
+        "use_bias": false
+    },
+    "157": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "160": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "164": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "167": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "171": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "174": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "178": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "181": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "185": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "188": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "191": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "194": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "197": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "200": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "205": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "208": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "211": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "214": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "217": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "220": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "225": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "228": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "231": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "234": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "237": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 128,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "240": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 1024,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "241": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 512,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "242": {
+        "kernel_size": [
+            3,
+            3
+        ],
+        "filters": 256,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": false
+    },
+    "249": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 1818,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": true
+    },
+    "250": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 1818,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": true
+    },
+    "251": {
+        "kernel_size": [
+            1,
+            1
+        ],
+        "filters": 1818,
+        "strides": [
+            1,
+            1
+        ],
+        "padding": "same",
+        "use_bias": true
+    }
+}
