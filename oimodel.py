@@ -40,19 +40,6 @@ def set_weights(model):
     for i in range(0,252):
         print(i)
         model.layers[i].set_weights(pre_trained_model.layers[i].get_weights())
-    # print(str(240))
-    # model.layers[240].set_weights(pre_trained_model.layers[242].get_weights())
-    # print(str(241))
-    # model.layers[241].set_weights(pre_trained_model.layers[245].get_weights())
-    # print(str(242))
-    # model.layers[242].set_weights(pre_trained_model.layers[248].get_weights())
-    # print(str(243))
-    # model.layers[243].set_weights(pre_trained_model.layers[251].get_weights())
-    # fp = open(weightfile, "rb")
-    # header = np.fromfile(fp, dtype = np.int32, count = 5)
-    # print(header)
-    # weights = np.fromfile(fp, dtype = np.float32)
-
     return model
 
 def conv_layer(X, params, ctr):
@@ -202,11 +189,11 @@ def yoloModel (input_shape = (608,608,3), classes=601):
     return model
 
 model = yoloModel()
-plot_model(model, to_file='model.png', show_shapes=True,show_layer_names=True)
-# model.compile(optimizer='adam', loss='mean_squared_error')
+# plot_model(model, to_file='model.png', show_shapes=True,show_layer_names=True) #use it to plot the graph in a png
+model.compile(optimizer='adam', loss='mean_squared_error')
 
-# print(len(model.output))
-#model = set_weights(model) Comment out this line to use pjreddies weight
+print(len(model.output)) #should be 3
+# model = set_weights(model) #Comment out this line to use pjreddies weight
 
-# print(model.summary())
-# model.save('yolo-openimages-custom.h5')
+print(model.summary())
+model.save('yolo-openimages-custom.h5')
