@@ -2,7 +2,7 @@
 # YOLOV3 implementation on Open Images
 
 ## Which model to use
-Use any of the below ways to build the model
+Use any of the below ways to build the model. Put the .h5 model in model_data
  1. Convert pjreddie's darknet model to keras using qqwweee's tool below.
  2. Use [oimodel.py](https://github.com/marcu5fen1x/YOLO3-OpenImages/blob/master/oimodel.py) to build a model with randomly initialized weights and train it yourself.
  3. Use [oimodel.py](https://github.com/marcu5fen1x/YOLO3-OpenImages/blob/master/oimodel.py) and comment out the setweights line to use pjreddie's weights. Then customize the layers as you wish. 
