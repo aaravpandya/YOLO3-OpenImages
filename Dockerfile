@@ -15,6 +15,9 @@ COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r ./requirements.txt
+RUN pip install scikit-learn
+RUN pip install scipy
+RUN pip install opencv-python
 RUN pip install tensorflow-1.6.0-cp36-cp36m-linux_x86_64.whl
 
 EXPOSE 5000
