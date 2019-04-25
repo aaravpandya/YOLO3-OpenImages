@@ -1,5 +1,5 @@
 
-# YOLOV3 implementation on Open Images
+# YOLOV3 implementation on Open Images + Color Detection
 
 ## Which model to use
 Use any of the below ways to build the model. Put the .h5 model in model_data
@@ -8,7 +8,7 @@ Use any of the below ways to build the model. Put the .h5 model in model_data
  3. Use [oimodel.py](https://github.com/marcu5fen1x/YOLO3-OpenImages/blob/master/oimodel.py) and comment out the setweights line to use pjreddie's weights. Then customize the layers as you wish. 
  4. Use [layer_config.json](https://github.com/marcu5fen1x/YOLO3-OpenImages/blob/master/layer_config.json) to customize your own layers and their parameters. See keras docs for loading json config files as pre trained models.
  ## Docker Build Instructions
- On a linux machine, enter the following in the terminal (its important to do this as admin)
+ On a linux machine, enter the following in the terminal
 
     sudo docker build -t <yourtagname> .
 tagname will be of the format "username/imagename"
